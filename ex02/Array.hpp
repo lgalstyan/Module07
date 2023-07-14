@@ -62,7 +62,7 @@ Array<T>& Array<T>::operator=(const Array& rhs)
 template<typename T>
 T& Array<T>::operator[](unsigned int indx)
 {
-    if (indx < 0 || indx > _size)
+    if (indx > _size)
     {
         throw OutOfRangeException();
     }
