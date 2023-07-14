@@ -1,6 +1,10 @@
 #ifndef WHATEVER_HPP
 #define WHATEVER_HPP
 
+#define RESET	"\033[0m"
+#define BLUE	"\033[1;34m"
+#define GREEN   "\x1B[32m"
+
 #include <iostream>
 
 template <typename value>

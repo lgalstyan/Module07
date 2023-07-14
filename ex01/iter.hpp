@@ -12,7 +12,7 @@ template <typename type> void print_foo(type t)
     std::cout << t << " ";
 }
 
-template <typename type, typename len> void iter(type* addr, len l, void (*print_foo)(type))
+template <typename type, typename len typename len> void iter(type* addr, len l, void (*print_foo)(type))
 {
     for(int i = 0; i < l; ++i)
         print_foo(addr[i]);
